@@ -13,8 +13,6 @@ const App = () => {
   const [coinData, setCoinData] = useState([]);
   const [darkmode, setDarkmode] = useDarkMode();
 
-  console.log(darkmode);
-
   useEffect(() => {
     axios
       .get(
